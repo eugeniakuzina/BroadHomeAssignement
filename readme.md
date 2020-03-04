@@ -2,11 +2,15 @@
 
 I've implemented tasks 1 and 2 and skipped task 3 as I didn't have enough time
 
+This is the maven project, please execute mvn clean install prior to running
+
 Main.class contains methods to implement the project functionality.
 
 Assertions in /main package are 'unit tests' and would be executed in the runtime
 
 Tests in /test package are 'functional tests' and would be executed in CI/CD pipeline
+
+For functionality simply run Main.class, for tests please run them with TestNG runner
 
 ## Answer to Question 1
 There are two ways to filter results for subway-only routes. Think about the two options below
